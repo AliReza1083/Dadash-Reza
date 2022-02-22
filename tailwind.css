@@ -750,6 +750,11 @@ body {
     transform: scale(.9) rotate(10deg);
   }
 }
+@media (max-width: 768px) {
+  #svg {
+    left: 10px;
+  }
+}
 
 .hover\:bg-slate-200:hover{
   --tw-bg-opacity: 1;
